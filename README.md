@@ -3,7 +3,7 @@
 Semantic segmentation model for [Airbus Ship Detection Challenge](https://www.kaggle.com/c/airbus-ship-detection/overview).
 
 ### How to launch and test an application:
-1. Clone repository with the git clone command.
+1. Clone repository with the git clone command (keep in mind that model is heavy and need some time to load it).
 2. Add Python Interpreter (I used python3.10).
 3. Activate venv (for MacOS: `source <venv>/bin/activate` command, for Windows: `<venv>\Scripts\activate.bat`).
 4. Install libraries using requirements.txt: `pip install -r /path/to/requirements.txt`.
