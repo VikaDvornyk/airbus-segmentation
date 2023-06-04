@@ -14,6 +14,9 @@ class App:
         self.model = mi.load_ml_model()
         self.canvas = None
 
+        load_label = tk.Label(self.root, text="Load Ship Image:")
+        load_label.pack()
+
         load_button = tk.Button(self.root, text="Load Image", command=self.load_file)
         load_button.pack()
 
